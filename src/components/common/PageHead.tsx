@@ -4,7 +4,7 @@ import React from 'react';
 const PageHead = () => {
   return (
     <Head>
-      <link rel='icon' href='/favicon.ico' sizes='any' />
+      <link rel="icon" href="/favicon/favicon-16x.png" sizes="any" />
     </Head>
   );
 };
