@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}', './pages/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     screens: {
       xs: '320px',
@@ -14,17 +11,23 @@ module.exports = {
     },
     fontFamily: {},
     extend: {
-      colors: {},
+      colors: {
+        'nx-nav-color': { 100: '#1e0815', 200: '#ff48b314', 300: '#ff48b31f' },
+        'nx-border': { 100: '#e9e8eb33' },
+        'nx-white': { 100: '#e9e8eb' },
+        'nx-black': { 100: '#290f1e' },
+        'nx-pink': { 100: '#ff68c0' },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       borderWidth: {
         1.5: '1.5px',
       },
       boxShadow: {
         regular: '0 0 8px rgb(0 0 0 / 12%)',
+        'nx-btn-shadow': 'rgba(255, 104, 192, 0.48) 0px 0px 32px 8px',
       },
       zIndex: {
         1: 1,
