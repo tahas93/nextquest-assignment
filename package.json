@@ -12,8 +12,7 @@
     "lint:strict": "eslint --max-warnings=0 src",
     "typecheck": "tsc --noEmit --incremental false",
     "format": "prettier -w .",
-    "format:check": "prettier -c .",
-    "prepare": "husky install"
+    "format:check": "prettier -c ."
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",

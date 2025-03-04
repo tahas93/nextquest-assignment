@@ -11,9 +11,9 @@ const HomeView = () => {
         <Image
           src="/images/gradient.png"
           alt="gradient"
-          width={500}
-          height={500}
-          className="absolute right-0 top-0 -translate-y-10 translate-x-28 opacity-70"
+          width={800}
+          height={800}
+          className="absolute -top-10 right-0 -translate-y-96"
         />
         <MainBanner />
         <Image
@@ -21,7 +21,7 @@ const HomeView = () => {
           alt="gradient"
           width={500}
           height={500}
-          className="absolute bottom-0 left-0 -translate-x-96 translate-y-36 opacity-70"
+          className="absolute bottom-0 left-0 -translate-x-96"
         />
         <TextSection />
       </div>
