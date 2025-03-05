@@ -19,7 +19,7 @@ body {
 }
 
 /* nav button style */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .nav-top-button {
     box-shadow: rgba(255, 104, 192, 0.48) 0px 4px 10px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
