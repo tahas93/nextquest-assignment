@@ -6,4 +6,4 @@ const home = () => {
   return <HomeView />;
 };
 
-export default WithLayout(home, 'Home');
+export default WithLayout(home, '#1 Adult Video Call Platform');
