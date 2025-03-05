@@ -16,8 +16,8 @@ module.exports = {
         'nx-border': { 100: '#e9e8eb33' },
         'nx-white': { 100: '#e9e8eb' },
         'nx-gray': { 100: '#b7b5b9' },
-        'nx-black': { 100: '#290f1e', 200: '#232027' },
-        'nx-pink': { 100: '#ff68c0' },
+        'nx-black': { 100: '#290f1e', 200: '#232027', 300: '#07030e' },
+        'nx-pink': { 100: '#ff68c0', 200: '#ff48b3' },
         'nx-green': { 100: '#79e028', 200: '#79e02852' },
         'nx-hover': {
           100: 'rgba(255, 72, 179, 0.04)',
@@ -28,6 +28,8 @@ module.exports = {
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'gradient-hot':
           'linear-gradient(90deg, rgb(255, 232, 8) 0%, rgb(255, 132, 116) 27.5%, rgb(255, 106, 193) 63%, rgb(251, 46, 165) 95.5%);',
+        'gradient-auth':
+          'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.93)), url(/images/auth-model1.webp);',
       },
       borderWidth: {
         1.5: '1.5px',

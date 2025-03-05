@@ -1,3 +1,4 @@
+import SignIn from '@src/components/Auth/SignIn';
 import Modal from '@src/components/Modal';
 import React, { useState } from 'react';
 
@@ -31,9 +32,9 @@ const LoginButton = () => {
         <Modal
           closeModal={() => setOpen(false)}
           isOpen={isOpen}
-          modalClass="lg:max-w-4xl p-7"
+          modalClass="lg:max-w-4xl"
           contentClass="w-full"
-          content=""
+          content={<SignIn />}
           ModalTitle=""
         />
       )}

@@ -41,7 +41,7 @@ const Modal = (props: ModalProps) => {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel
-                className={`flex w-full transform flex-wrap items-start justify-start overflow-hidden overflow-y-auto rounded-xl bg-white shadow-xl transition-all xs:max-w-md lg:min-w-[600px] ${modalClass}`}
+                className={`flex w-full transform flex-wrap items-start justify-start overflow-hidden overflow-y-auto rounded-xl bg-nx-black-300 text-nx-gray-100 shadow-xl transition-all xs:max-w-md lg:min-w-[840px] ${modalClass}`}
               >
                 <Dialog.Title as="h3" className={`w-full ${titleClass}`}>
                   {ModalTitle}
