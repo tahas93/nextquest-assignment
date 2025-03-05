@@ -2,7 +2,7 @@ import React from 'react';
 
 const LeftSection = () => {
   return (
-    <div className="auth-img-2 lg:realtive block h-auto w-full max-w-[420px] rounded-xl bg-gradient-auth-2 bg-cover bg-no-repeat xs:absolute xs:-z-1 xs:h-full lg:z-auto lg:h-auto">
+    <div className="auth-img-2 block h-auto w-full max-w-[420px] rounded-xl bg-gradient-auth-2 bg-cover bg-no-repeat xs:absolute xs:-z-1 xs:h-full lg:relative lg:z-auto lg:h-auto">
       <div className="flex h-full w-full flex-wrap content-center items-center justify-center space-y-5">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/images/gitftsecond.png" alt="gift" />
