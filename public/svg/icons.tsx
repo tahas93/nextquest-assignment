@@ -26,6 +26,19 @@ export const AccountIcon = (props: React.ComponentProps<'svg'>) => (
   </svg>
 );
 
+export const MailIcon = (props: React.ComponentProps<'svg'>) => (
+  <svg
+    {...props}
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    fill="currentColor"
+  >
+    <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"></path>
+  </svg>
+);
+
 export const ShowPasswordIcon = (props: React.ComponentProps<'svg'>) => (
   <svg
     {...props}
@@ -62,5 +75,24 @@ export const CheckIcon = (props: React.ComponentProps<'svg'>) => (
     fill="currentColor"
   >
     <path d="M 26.980469 5.9902344 A 1.0001 1.0001 0 0 0 26.292969 6.2929688 L 11 21.585938 L 4.7070312 15.292969 A 1.0001 1.0001 0 1 0 3.2929688 16.707031 L 10.292969 23.707031 A 1.0001 1.0001 0 0 0 11.707031 23.707031 L 27.707031 7.7070312 A 1.0001 1.0001 0 0 0 26.980469 5.9902344 z" />
+  </svg>
+);
+
+export const MenuIcon = (props: React.ComponentProps<'svg'>) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <g id="menu-5-fill">
+      <path
+        id="Vector"
+        d="M18 18V20H6V18H18ZM21 11V13H3V11H21ZM18 4V6H6V4H18Z"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );

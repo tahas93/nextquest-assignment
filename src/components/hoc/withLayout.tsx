@@ -12,7 +12,7 @@ const WithLayout = (ComposedComponent: any, title?: string) => {
         <PageMetaData title={title} />
         <div className="relative w-full">
           <Header />
-          <div className="lg:mt-[70px]">
+          <div className="xs:mt-[80px] lg:mt-[70px]">
             <ComposedComponent {...props} />
           </div>
         </div>

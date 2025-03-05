@@ -6,7 +6,7 @@ const Label = ({
   className,
 }: {
   htmlFor: string;
-  text: string;
+  text: any;
   className?: string;
 }) => {
   return (

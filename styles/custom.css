@@ -19,14 +19,23 @@ body {
 }
 
 /* nav button style */
-
-.nav-top-button {
-  box-shadow: rgba(255, 104, 192, 0.48) 0px 4px 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background: linear-gradient(90deg, rgb(254, 205, 61), rgb(255, 241, 198), rgb(255, 104, 192));
+@media (min-width: 1024px) {
+  .nav-top-button {
+    box-shadow: rgba(255, 104, 192, 0.48) 0px 4px 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: linear-gradient(90deg, rgb(254, 205, 61), rgb(255, 241, 198), rgb(255, 104, 192));
+  }
 }
 
 .auth-img {
   background-size: calc(100% - 320px) 100%, cover;
   background-position: right center;
+}
+
+.auth-img-2 {
+  background-position: right center;
+}
+
+.text-shadow-nx {
+  text-shadow: rgba(0, 0, 0, 0.5) 0 10px 6px;
 }

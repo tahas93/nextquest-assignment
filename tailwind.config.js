@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       colors: {
         'nx-nav-color': { 100: '#1e0815', 200: '#ff48b314', 300: '#ff48b31f' },
-        'nx-border': { 100: '#e9e8eb33' },
+        'nx-border': { 100: '#e9e8eb33', 200: '#40172fbf' },
         'nx-white': { 100: '#e9e8eb' },
         'nx-gray': { 100: '#b7b5b9' },
         'nx-black': { 100: '#290f1e', 200: '#232027', 300: '#07030e' },
@@ -23,13 +23,17 @@ module.exports = {
           100: 'rgba(255, 72, 179, 0.04)',
         },
       },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'gradient-hot':
-          'linear-gradient(90deg, rgb(255, 232, 8) 0%, rgb(255, 132, 116) 27.5%, rgb(255, 106, 193) 63%, rgb(251, 46, 165) 95.5%);',
+          'linear-gradient(90deg, rgb(255, 232, 8) 0%, rgb(255, 132, 116) 27.5%, rgb(255, 106, 193) 63%, rgb(251, 46, 165) 95.5%)',
         'gradient-auth':
-          'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.93)), url(/images/auth-model1.webp);',
+          'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.93)), url(/images/auth-model1.webp)',
+        'gradient-auth-2':
+          'linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.72) 100%), url("/images/auth-model1.webp")',
+        'gradient-text': 'linear-gradient(90deg, rgb(251, 166, 49), rgb(255, 255, 255))',
       },
       borderWidth: {
         1.5: '1.5px',
@@ -38,6 +42,7 @@ module.exports = {
         regular: '0 0 8px rgb(0 0 0 / 12%)',
         'nx-btn-shadow': 'rgba(255, 104, 192, 0.48) 0px 0px 32px 8px',
         'nx-hot-shadow': 'rgba(255, 104, 192, 0.56) 0px 8px 33px 0px#b7b5b9',
+        'nx-timer-shadow': 'rgba(255, 104, 192, 0.5) 0px 0px 20px 4px',
       },
       zIndex: {
         1: 1,

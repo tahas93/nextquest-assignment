@@ -10,8 +10,8 @@ const SignIn = () => {
   const [isShow, setShow] = useState(false);
   const [focused, setFocused] = useState('');
   return (
-    <div className="flex w-full items-stretch justify-between">
-      <div className="auth-img block h-auto w-full max-w-[420px] rounded-xl bg-gradient-auth bg-no-repeat"></div>
+    <div className="flex w-full items-stretch justify-between xs:flex-wrap lg:flex-nowrap">
+      <div className="auth-img block h-auto w-full max-w-[420px] rounded-xl bg-gradient-auth bg-no-repeat xs:absolute xs:-z-1 xs:h-full lg:relative lg:z-auto lg:h-auto"></div>
       <div className="flex flex-1">
         <div className="flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-80 pb-8 pt-14">
           <div className="w-full px-6">

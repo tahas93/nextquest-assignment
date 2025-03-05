@@ -7,7 +7,7 @@ import React from 'react';
 const HomeView = () => {
   return (
     <>
-      <div className="container relative mx-auto flex w-full flex-wrap items-start justify-start py-2.5 xs:space-y-10 xs:px-4 lg:space-y-24">
+      <div className="relative flex w-full flex-wrap items-start justify-start py-2.5 lg:container xs:space-y-10 xs:px-4 lg:mx-auto lg:space-y-24">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <Image
           src="/images/gradient.png"

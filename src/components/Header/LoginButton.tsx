@@ -8,7 +8,7 @@ const LoginButton = () => {
     <>
       <a
         onClick={() => setOpen(true)}
-        className="flex cursor-pointer items-center space-x-2 rounded-lg border border-nx-border-100 px-3 py-2.5 text-center focus:outline-none"
+        className="flex cursor-pointer items-center justify-center space-x-2 px-3 py-2.5 focus:outline-none lg:rounded-lg lg:border lg:border-nx-border-100 lg:text-center"
       >
         <svg
           width="20"

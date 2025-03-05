@@ -7,9 +7,9 @@ interface ItemCardProps {
 const ItemCard = (props: ItemCardProps) => {
   const { values } = props;
   return (
-    <div className="m-2 box-border flex items-start justify-start xs:w-full md:w-[calc(100%/2.23)] lg:w-[calc(100%/4.23)]">
+    <div className="m-2 box-border flex items-start justify-start xs:w-full md:w-[calc(100%/3.23)] lg:w-[calc(100%/4.23)]">
       <a href="" className="flex w-full flex-col items-center justify-start">
-        <div className="relative flex min-h-[432px] w-full items-center justify-center overflow-hidden rounded-xl bg-gray-400 p-4">
+        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-xl bg-gray-400 p-4 xs:min-h-[320px] lg:min-h-[432px]">
           <div className="absolute left-3 top-3 z-9">
             {values.availiblity && (
               <div className="relative ml-5 flex items-center justify-start">
